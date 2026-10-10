@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+*.py[cod]
+data/raw/*
+data/incoming/*
+data/processed/*
+!data/raw/.gitkeep
+!data/incoming/.gitkeep
+!data/processed/.gitkeep
+artifacts/*.joblib
+reports/*.png
+reports/*.csv
+reports/*.json
+reports/*.txt
+outputs/*.csv
+logs/*.log
